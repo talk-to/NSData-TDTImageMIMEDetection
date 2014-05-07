@@ -31,5 +31,5 @@ For any other feedback or suggestion, contact the maintainers (listed below).
 
 ## Contributing
 
-If you are willing to contribute to the library go through the [Talk.to iOS Development Guidelines][ios-guides].
+If you are willing to contribute to the library go through the [Talk.to iOS Development Guidelines](https://github.com/talk-to/ios-guides).
 
