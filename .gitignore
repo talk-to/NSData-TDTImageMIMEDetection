@@ -1,0 +1,10 @@
+# Xcode
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+xcuserdata
+profile
+DerivedData
+*.xccheckout
+
