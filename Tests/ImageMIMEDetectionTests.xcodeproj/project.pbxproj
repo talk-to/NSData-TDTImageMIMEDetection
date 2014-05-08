@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0BBBB5191B4E8D000C7D81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BBBB4191B4E8D000C7D81 /* Foundation.framework */; };
+		2A0BBBB7191B4E8D000C7D81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BBBB6191B4E8D000C7D81 /* CoreGraphics.framework */; };
+		2A0BBBB9191B4E8D000C7D81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BBBB8191B4E8D000C7D81 /* UIKit.framework */; };
+		2A0BBBBF191B4E8D000C7D81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BBBBD191B4E8D000C7D81 /* InfoPlist.strings */; };
+		2A0BBBC1191B4E8D000C7D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BBBC0191B4E8D000C7D81 /* main.m */; };
+		2A0BBBC5191B4E8D000C7D81 /* TDTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BBBC4191B4E8D000C7D81 /* TDTAppDelegate.m */; };
+		2A0BBBC7191B4E8D000C7D81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BBBC6191B4E8D000C7D81 /* Images.xcassets */; };
+		2A0BBBCE191B4E8D000C7D81 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BBBCD191B4E8D000C7D81 /* XCTest.framework */; };
+		2A0BBBCF191B4E8D000C7D81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BBBB4191B4E8D000C7D81 /* Foundation.framework */; };
+		2A0BBBD0191B4E8D000C7D81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BBBB8191B4E8D000C7D81 /* UIKit.framework */; };
+		2A0BBBD8191B4E8D000C7D81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BBBD6191B4E8D000C7D81 /* InfoPlist.strings */; };
+		2A0BBBDA191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BBBD9191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests.m */; };
+		DEFE74F63BDF438EB92E2E8A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CFDDDA64E644E3A4EB12FC /* libPods-Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A0BBBD1191B4E8D000C7D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0BBBA9191B4E8D000C7D81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0BBBB0191B4E8D000C7D81;
+			remoteInfo = ImageMIMEDetectionTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A0BBBB1191B4E8D000C7D81 /* ImageMIMEDetectionTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ImageMIMEDetectionTests.app; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0BBBB4191B4E8D000C7D81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A0BBBB6191B4E8D000C7D81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A0BBBB8191B4E8D000C7D81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A0BBBBC191B4E8D000C7D81 /* ImageMIMEDetectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageMIMEDetectionTests-Info.plist"; sourceTree = "<group>"; };
+		2A0BBBBE191B4E8D000C7D81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A0BBBC0191B4E8D000C7D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A0BBBC2191B4E8D000C7D81 /* ImageMIMEDetectionTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageMIMEDetectionTests-Prefix.pch"; sourceTree = "<group>"; };
+		2A0BBBC3191B4E8D000C7D81 /* TDTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDTAppDelegate.h; sourceTree = "<group>"; };
+		2A0BBBC4191B4E8D000C7D81 /* TDTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTAppDelegate.m; sourceTree = "<group>"; };
+		2A0BBBC6191B4E8D000C7D81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A0BBBCC191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMIMEDetectionTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0BBBCD191B4E8D000C7D81 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2A0BBBD5191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageMIMEDetectionTestsTests-Info.plist"; sourceTree = "<group>"; };
+		2A0BBBD7191B4E8D000C7D81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A0BBBD9191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMIMEDetectionTestsTests.m; sourceTree = "<group>"; };
+		7178720B026243A6B22C2EBC /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
+		C2CFDDDA64E644E3A4EB12FC /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0BBBAE191B4E8D000C7D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BBBB7191B4E8D000C7D81 /* CoreGraphics.framework in Frameworks */,
+				2A0BBBB9191B4E8D000C7D81 /* UIKit.framework in Frameworks */,
+				2A0BBBB5191B4E8D000C7D81 /* Foundation.framework in Frameworks */,
+				DEFE74F63BDF438EB92E2E8A /* libPods-Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0BBBC9191B4E8D000C7D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BBBCE191B4E8D000C7D81 /* XCTest.framework in Frameworks */,
+				2A0BBBD0191B4E8D000C7D81 /* UIKit.framework in Frameworks */,
+				2A0BBBCF191B4E8D000C7D81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0BBBA8191B4E8D000C7D81 = {
+			isa = PBXGroup;
+			children = (
+				2A0BBBBA191B4E8D000C7D81 /* ImageMIMEDetectionTests */,
+				2A0BBBD3191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests */,
+				2A0BBBB3191B4E8D000C7D81 /* Frameworks */,
+				2A0BBBB2191B4E8D000C7D81 /* Products */,
+				7178720B026243A6B22C2EBC /* Pods-Tests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2A0BBBB2191B4E8D000C7D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BBBB1191B4E8D000C7D81 /* ImageMIMEDetectionTests.app */,
+				2A0BBBCC191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A0BBBB3191B4E8D000C7D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BBBB4191B4E8D000C7D81 /* Foundation.framework */,
+				2A0BBBB6191B4E8D000C7D81 /* CoreGraphics.framework */,
+				2A0BBBB8191B4E8D000C7D81 /* UIKit.framework */,
+				2A0BBBCD191B4E8D000C7D81 /* XCTest.framework */,
+				C2CFDDDA64E644E3A4EB12FC /* libPods-Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A0BBBBA191B4E8D000C7D81 /* ImageMIMEDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BBBC3191B4E8D000C7D81 /* TDTAppDelegate.h */,
+				2A0BBBC4191B4E8D000C7D81 /* TDTAppDelegate.m */,
+				2A0BBBC6191B4E8D000C7D81 /* Images.xcassets */,
+				2A0BBBBB191B4E8D000C7D81 /* Supporting Files */,
+			);
+			path = ImageMIMEDetectionTests;
+			sourceTree = "<group>";
+		};
+		2A0BBBBB191B4E8D000C7D81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BBBBC191B4E8D000C7D81 /* ImageMIMEDetectionTests-Info.plist */,
+				2A0BBBBD191B4E8D000C7D81 /* InfoPlist.strings */,
+				2A0BBBC0191B4E8D000C7D81 /* main.m */,
+				2A0BBBC2191B4E8D000C7D81 /* ImageMIMEDetectionTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A0BBBD3191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BBBD9191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests.m */,
+				2A0BBBD4191B4E8D000C7D81 /* Supporting Files */,
+			);
+			path = ImageMIMEDetectionTestsTests;
+			sourceTree = "<group>";
+		};
+		2A0BBBD4191B4E8D000C7D81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BBBD5191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests-Info.plist */,
+				2A0BBBD6191B4E8D000C7D81 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A0BBBB0191B4E8D000C7D81 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0BBBDD191B4E8D000C7D81 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				6C047F8404BC4CFAB170DBA3 /* Check Pods Manifest.lock */,
+				2A0BBBAD191B4E8D000C7D81 /* Sources */,
+				2A0BBBAE191B4E8D000C7D81 /* Frameworks */,
+				2A0BBBAF191B4E8D000C7D81 /* Resources */,
+				99709760779C458F84EBA3C3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = ImageMIMEDetectionTests;
+			productReference = 2A0BBBB1191B4E8D000C7D81 /* ImageMIMEDetectionTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A0BBBCB191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0BBBE0191B4E8D000C7D81 /* Build configuration list for PBXNativeTarget "ImageMIMEDetectionTestsTests" */;
+			buildPhases = (
+				2A0BBBC8191B4E8D000C7D81 /* Sources */,
+				2A0BBBC9191B4E8D000C7D81 /* Frameworks */,
+				2A0BBBCA191B4E8D000C7D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0BBBD2191B4E8D000C7D81 /* PBXTargetDependency */,
+			);
+			name = ImageMIMEDetectionTestsTests;
+			productName = ImageMIMEDetectionTestsTests;
+			productReference = 2A0BBBCC191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A0BBBA9191B4E8D000C7D81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TDT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ayush;
+				TargetAttributes = {
+					2A0BBBCB191B4E8D000C7D81 = {
+						TestTargetID = 2A0BBBB0191B4E8D000C7D81;
+					};
+				};
+			};
+			buildConfigurationList = 2A0BBBAC191B4E8D000C7D81 /* Build configuration list for PBXProject "ImageMIMEDetectionTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A0BBBA8191B4E8D000C7D81;
+			productRefGroup = 2A0BBBB2191B4E8D000C7D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A0BBBB0191B4E8D000C7D81 /* Tests */,
+				2A0BBBCB191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A0BBBAF191B4E8D000C7D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BBBBF191B4E8D000C7D81 /* InfoPlist.strings in Resources */,
+				2A0BBBC7191B4E8D000C7D81 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0BBBCA191B4E8D000C7D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BBBD8191B4E8D000C7D81 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C047F8404BC4CFAB170DBA3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99709760779C458F84EBA3C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A0BBBAD191B4E8D000C7D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BBBC1191B4E8D000C7D81 /* main.m in Sources */,
+				2A0BBBC5191B4E8D000C7D81 /* TDTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0BBBC8191B4E8D000C7D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BBBDA191B4E8D000C7D81 /* ImageMIMEDetectionTestsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A0BBBD2191B4E8D000C7D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0BBBB0191B4E8D000C7D81 /* Tests */;
+			targetProxy = 2A0BBBD1191B4E8D000C7D81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A0BBBBD191B4E8D000C7D81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0BBBBE191B4E8D000C7D81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A0BBBD6191B4E8D000C7D81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0BBBD7191B4E8D000C7D81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A0BBBDB191B4E8D000C7D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A0BBBDC191B4E8D000C7D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A0BBBDE191B4E8D000C7D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7178720B026243A6B22C2EBC /* Pods-Tests.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMIMEDetectionTests/ImageMIMEDetectionTests-Prefix.pch";
+				INFOPLIST_FILE = "ImageMIMEDetectionTests/ImageMIMEDetectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A0BBBDF191B4E8D000C7D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7178720B026243A6B22C2EBC /* Pods-Tests.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMIMEDetectionTests/ImageMIMEDetectionTests-Prefix.pch";
+				INFOPLIST_FILE = "ImageMIMEDetectionTests/ImageMIMEDetectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2A0BBBE1191B4E8D000C7D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tests.app/Tests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMIMEDetectionTests/ImageMIMEDetectionTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageMIMEDetectionTestsTests/ImageMIMEDetectionTestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2A0BBBE2191B4E8D000C7D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tests.app/Tests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMIMEDetectionTests/ImageMIMEDetectionTests-Prefix.pch";
+				INFOPLIST_FILE = "ImageMIMEDetectionTestsTests/ImageMIMEDetectionTestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0BBBAC191B4E8D000C7D81 /* Build configuration list for PBXProject "ImageMIMEDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0BBBDB191B4E8D000C7D81 /* Debug */,
+				2A0BBBDC191B4E8D000C7D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0BBBDD191B4E8D000C7D81 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0BBBDE191B4E8D000C7D81 /* Debug */,
+				2A0BBBDF191B4E8D000C7D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0BBBE0191B4E8D000C7D81 /* Build configuration list for PBXNativeTarget "ImageMIMEDetectionTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0BBBE1191B4E8D000C7D81 /* Debug */,
+				2A0BBBE2191B4E8D000C7D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A0BBBA9191B4E8D000C7D81 /* Project object */;
+}

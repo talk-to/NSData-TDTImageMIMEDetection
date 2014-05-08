@@ -1,0 +1,6 @@
+xcodeproj 'ImageMIMEDetectionTests'
+inhibit_all_warnings!
+
+target :Tests do
+  pod "NSData+ImageMIMEDetection", :path => "../"
+end

@@ -1,0 +1,1 @@
+../../../../NSData+ImageMIMEDetection/NSData+ImageMIMEDetection.h
