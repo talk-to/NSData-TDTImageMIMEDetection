@@ -1,0 +1,4 @@
+
+@interface NSData (ImageMIMEDetection)
+
+@end
