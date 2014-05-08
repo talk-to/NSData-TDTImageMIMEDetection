@@ -4,7 +4,7 @@ Category on NSData that can determine if it is a representaion of a JPEG image o
 
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
+To run the tests; clone the repo, and run `pod install` from the `Tests` directory first.
 
 ## Installation
 
