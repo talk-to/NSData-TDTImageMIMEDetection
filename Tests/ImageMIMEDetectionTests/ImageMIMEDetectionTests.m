@@ -1,18 +1,18 @@
 //
-//  ImageMIMEDetectionTestsTests.m
-//  ImageMIMEDetectionTestsTests
+//  ImageMIMEDetectionTests.m
+//  ImageMIMEDetectionTests
 //
 //  Created by Ayush on 08/05/14.
-//  Copyright (c) 2014 Ayush. All rights reserved.
+//  Copyright (c) 2014 Talk.to. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ImageMIMEDetectionTestsTests : XCTestCase
+@interface ImageMIMEDetectionTests : XCTestCase
 
 @end
 
-@implementation ImageMIMEDetectionTestsTests
+@implementation ImageMIMEDetectionTests
 
 - (void)setUp
 {
