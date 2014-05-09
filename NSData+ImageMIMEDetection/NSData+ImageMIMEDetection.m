@@ -22,6 +22,8 @@ static NSUInteger const JPEGHeaderLength = 4;
   if (isJPEG) {
     return @"image/jpeg";
   }
+
+  return nil;
 }
 
 @end
