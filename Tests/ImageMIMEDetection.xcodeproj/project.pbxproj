@@ -19,6 +19,7 @@
 		2A0BBC0B191B6D4A000C7D81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BBBF3191B6D4A000C7D81 /* UIKit.framework */; };
 		2A0BBC13191B6D4A000C7D81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BBC11191B6D4A000C7D81 /* InfoPlist.strings */; };
 		2A0BBC15191B6D4A000C7D81 /* ImageMIMEDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BBC14191B6D4A000C7D81 /* ImageMIMEDetectionTests.m */; };
+		2A0BBC22191B7B10000C7D81 /* PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BBC20191B79F2000C7D81 /* PNG.png */; };
 		E7ED1CEAADA64548B79D5A93 /* libPods-ImageMIMEDetectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C180BB636AA4509A22486CE /* libPods-ImageMIMEDetectionTests.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		2A0BBC10191B6D4A000C7D81 /* ImageMIMEDetectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageMIMEDetectionTests-Info.plist"; sourceTree = "<group>"; };
 		2A0BBC12191B6D4A000C7D81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A0BBC14191B6D4A000C7D81 /* ImageMIMEDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMIMEDetectionTests.m; sourceTree = "<group>"; };
+		2A0BBC20191B79F2000C7D81 /* PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNG.png; sourceTree = "<group>"; };
 		2C180BB636AA4509A22486CE /* libPods-ImageMIMEDetectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageMIMEDetectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A05BDA2A654C409FF6F977 /* Pods-ImageMIMEDetectionTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageMIMEDetectionTests.xcconfig"; path = "Pods/Pods-ImageMIMEDetectionTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +148,7 @@
 			children = (
 				2A0BBC10191B6D4A000C7D81 /* ImageMIMEDetectionTests-Info.plist */,
 				2A0BBC11191B6D4A000C7D81 /* InfoPlist.strings */,
+				2A0BBC20191B79F2000C7D81 /* PNG.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0BBC22191B7B10000C7D81 /* PNG.png in Resources */,
 				2A0BBBFA191B6D4A000C7D81 /* InfoPlist.strings in Resources */,
 				2A0BBC02191B6D4A000C7D81 /* Images.xcassets in Resources */,
 			);
