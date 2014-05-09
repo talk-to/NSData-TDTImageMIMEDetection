@@ -7,28 +7,30 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <NSData+ImageMIMEDetection/NSData+ImageMIMEDetection.h>
 
 @interface ImageMIMEDetectionTests : XCTestCase
+
+@property (nonatomic) UIImage *image;
 
 @end
 
 @implementation ImageMIMEDetectionTests
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+- (void)setUp {
+  [super setUp];
+  self.image = [UIImage imageNamed:@"PNG.png"];
 }
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+- (void)tearDown {
+  self.image = nil;
+  [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+- (void)testItDetectsJPEGImageCorectly {
+  NSData *data = UIImageJPEGRepresentation(self.image, 1.0);
+  NSString *MIMEType = [data tdt_MIMEType];
+  XCTAssertEqualObjects(MIMEType, @"image/jpeg");
 }
 
 @end
