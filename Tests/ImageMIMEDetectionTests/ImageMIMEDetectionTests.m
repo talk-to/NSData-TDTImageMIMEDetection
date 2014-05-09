@@ -33,4 +33,10 @@
   XCTAssertEqualObjects(MIMEType, @"image/jpeg");
 }
 
+- (void)testItDetectsPNGImageCorectly {
+  NSData *data = UIImagePNGRepresentation(self.image);
+  NSString *MIMEType = [data tdt_MIMEType];
+  XCTAssertEqualObjects(MIMEType, @"image/png");
+}
+
 @end
