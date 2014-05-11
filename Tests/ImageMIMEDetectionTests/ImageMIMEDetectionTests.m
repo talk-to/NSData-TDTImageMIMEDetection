@@ -32,6 +32,11 @@
   XCTAssertNil([data tdt_MIMEType]);
 }
 
+- (void)testItReturnsNilForNonImageData {
+  NSData *nonImageData = [@"random" dataUsingEncoding:NSUTF8StringEncoding];
+  XCTAssertNil([nonImageData tdt_MIMEType]);
+}
+
 - (void)testItDetectsJPEGImageCorectly {
   NSData *data = UIImageJPEGRepresentation(self.image, 1.0);
   NSString *MIMEType = [data tdt_MIMEType];
