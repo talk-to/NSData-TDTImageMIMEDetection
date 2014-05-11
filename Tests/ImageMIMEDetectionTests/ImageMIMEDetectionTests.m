@@ -27,6 +27,11 @@
   [super tearDown];
 }
 
+- (void)testItReturnsNilForEmptyData {
+  NSData *data = [NSData data];
+  XCTAssertNil([data tdt_MIMEType]);
+}
+
 - (void)testItDetectsJPEGImageCorectly {
   NSData *data = UIImageJPEGRepresentation(self.image, 1.0);
   NSString *MIMEType = [data tdt_MIMEType];
