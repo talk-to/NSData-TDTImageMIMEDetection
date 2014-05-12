@@ -7,4 +7,4 @@ xcuserdata
 profile
 DerivedData
 *.xccheckout
-
+Tests/Pods/
