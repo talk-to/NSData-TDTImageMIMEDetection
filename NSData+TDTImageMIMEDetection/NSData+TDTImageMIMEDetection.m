@@ -34,7 +34,6 @@ static NSUInteger const PNGHeaderLength = 4;
           buffer[1] == 0x50 &&
           buffer[2] == 0x4E &&
           buffer[3] == 0x47);
-
 }
 
 - (NSString *)tdt_MIMEType {
