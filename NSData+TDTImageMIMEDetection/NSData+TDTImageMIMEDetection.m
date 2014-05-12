@@ -6,7 +6,7 @@ static NSUInteger const PNGHeaderLength = 4;
 
 @implementation NSData (TDTImageMIMEDetection)
 
-- (BOOL)isJPEG {
+- (BOOL)tdt_isJPEG {
   if (self.length < JPEGHeaderLength) {
     return NO;
   }
@@ -22,7 +22,7 @@ static NSUInteger const PNGHeaderLength = 4;
           buffer[3] == 0xE0);
 }
 
-- (BOOL)isPNG {
+- (BOOL)tdt_isPNG {
   if (self.length < PNGHeaderLength) {
     return NO;
   }
@@ -38,11 +38,11 @@ static NSUInteger const PNGHeaderLength = 4;
 }
 
 - (NSString *)tdt_MIMEType {
-  if ([self isJPEG]) {
+  if ([self tdt_isJPEG]) {
     return @"image/jpeg";
   }
 
-  if ([self isPNG]) {
+  if ([self tdt_isPNG]) {
     return @"image/png";
   }
 
