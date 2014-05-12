@@ -1,4 +1,4 @@
-# NSData+ImageMIMEDetection
+# NSData+TDTImageMIMEDetection
 
 Category on NSData that can determine if it is a representaion of a JPEG image or a PNG image.
 
@@ -8,20 +8,20 @@ To run the tests; clone the repo, and run `pod install` from the `Tests` directo
 
 ## Installation
 
-NSData+ImageMIMEDetection is available through [CocoaPods](http://cocoapods.org), to install
+NSData+TDTImageMIMEDetection is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
-    pod 'NSData+ImageMIMEDetection', :git => 'git@github.com:talk-to/NSData-ImageMIMEDetection', :tag => '0.1.0'
+    pod 'NSData+TDTImageMIMEDetection', :git => 'git@github.com:talk-to/NSData-TDTImageMIMEDetection', :tag => '0.1.0'
 
 and then run :
 
     $ pod install
 
-Alternatively, import all the source files inside the `NSData+ImageMIMEDetection/` subdirectory into your project.
+Alternatively, import all the source files inside the `NSData+TDTImageMIMEDetection/` subdirectory into your project.
 
 ## Issues and Feedback
 
-To report any issues with the library, create an issue on [Github](https://github.com/talk-to/NSData-ImageMIMEDetection/issues).
+To report any issues with the library, create an issue on [Github](https://github.com/talk-to/NSData-TDTImageMIMEDetection/issues).
 
 For any other feedback or suggestion, contact the maintainers (listed below).
 

@@ -1,10 +1,10 @@
 
-#import "NSData+ImageMIMEDetection.h"
+#import "NSData+TDTImageMIMEDetection.h"
 
 static NSUInteger const JPEGHeaderLength = 4;
 static NSUInteger const PNGHeaderLength = 4;
 
-@implementation NSData (ImageMIMEDetection)
+@implementation NSData (TDTImageMIMEDetection)
 
 - (BOOL)isJPEG {
   if (self.length < JPEGHeaderLength) {

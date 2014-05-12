@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A5BACA51920986800B83C58 /* PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE052651920945700902408 /* PNG.png */; };
+		2AE052371920936400902408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE052361920936400902408 /* Foundation.framework */; };
+		2AE052391920936400902408 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE052381920936400902408 /* CoreGraphics.framework */; };
+		2AE0523B1920936400902408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE0523A1920936400902408 /* UIKit.framework */; };
+		2AE052411920936400902408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AE0523F1920936400902408 /* InfoPlist.strings */; };
+		2AE052431920936400902408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE052421920936400902408 /* main.m */; };
+		2AE052471920936400902408 /* TDTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE052461920936400902408 /* TDTAppDelegate.m */; };
+		2AE052491920936400902408 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE052481920936400902408 /* Images.xcassets */; };
+		2AE052501920936400902408 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE0524F1920936400902408 /* XCTest.framework */; };
+		2AE052511920936400902408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE052361920936400902408 /* Foundation.framework */; };
+		2AE052521920936400902408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE0523A1920936400902408 /* UIKit.framework */; };
+		2AE0525A1920936400902408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AE052581920936400902408 /* InfoPlist.strings */; };
+		2AE0525C1920936400902408 /* TDTImageMIMEDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE0525B1920936400902408 /* TDTImageMIMEDetectionTests.m */; };
+		E8B5C56792004E6C862FE343 /* libPods-TDTImageMIMEDetectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BF6CDE3E044D13A2173EF6 /* libPods-TDTImageMIMEDetectionTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AE052531920936400902408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AE0522B1920936400902408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AE052321920936400902408;
+			remoteInfo = TDTImageMIMEDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AE052331920936400902408 /* TDTImageMIMEDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDTImageMIMEDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE052361920936400902408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AE052381920936400902408 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AE0523A1920936400902408 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AE0523E1920936400902408 /* TDTImageMIMEDetection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDTImageMIMEDetection-Info.plist"; sourceTree = "<group>"; };
+		2AE052401920936400902408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AE052421920936400902408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AE052441920936400902408 /* TDTImageMIMEDetection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDTImageMIMEDetection-Prefix.pch"; sourceTree = "<group>"; };
+		2AE052451920936400902408 /* TDTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDTAppDelegate.h; sourceTree = "<group>"; };
+		2AE052461920936400902408 /* TDTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTAppDelegate.m; sourceTree = "<group>"; };
+		2AE052481920936400902408 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2AE0524E1920936400902408 /* TDTImageMIMEDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDTImageMIMEDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE0524F1920936400902408 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2AE052571920936400902408 /* TDTImageMIMEDetectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDTImageMIMEDetectionTests-Info.plist"; sourceTree = "<group>"; };
+		2AE052591920936400902408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AE0525B1920936400902408 /* TDTImageMIMEDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTImageMIMEDetectionTests.m; sourceTree = "<group>"; };
+		2AE052651920945700902408 /* PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNG.png; sourceTree = "<group>"; };
+		D3BF6CDE3E044D13A2173EF6 /* libPods-TDTImageMIMEDetectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDTImageMIMEDetectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAC1DDCB68642059825353E /* Pods-TDTImageMIMEDetectionTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTImageMIMEDetectionTests.xcconfig"; path = "Pods/Pods-TDTImageMIMEDetectionTests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AE052301920936400902408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE052391920936400902408 /* CoreGraphics.framework in Frameworks */,
+				2AE0523B1920936400902408 /* UIKit.framework in Frameworks */,
+				2AE052371920936400902408 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE0524B1920936400902408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE052501920936400902408 /* XCTest.framework in Frameworks */,
+				2AE052521920936400902408 /* UIKit.framework in Frameworks */,
+				2AE052511920936400902408 /* Foundation.framework in Frameworks */,
+				E8B5C56792004E6C862FE343 /* libPods-TDTImageMIMEDetectionTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AE0522A1920936400902408 = {
+			isa = PBXGroup;
+			children = (
+				2AE0523C1920936400902408 /* TDTImageMIMEDetection */,
+				2AE052551920936400902408 /* TDTImageMIMEDetectionTests */,
+				2AE052351920936400902408 /* Frameworks */,
+				2AE052341920936400902408 /* Products */,
+				DDAC1DDCB68642059825353E /* Pods-TDTImageMIMEDetectionTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2AE052341920936400902408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AE052331920936400902408 /* TDTImageMIMEDetection.app */,
+				2AE0524E1920936400902408 /* TDTImageMIMEDetectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AE052351920936400902408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AE052361920936400902408 /* Foundation.framework */,
+				2AE052381920936400902408 /* CoreGraphics.framework */,
+				2AE0523A1920936400902408 /* UIKit.framework */,
+				2AE0524F1920936400902408 /* XCTest.framework */,
+				D3BF6CDE3E044D13A2173EF6 /* libPods-TDTImageMIMEDetectionTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AE0523C1920936400902408 /* TDTImageMIMEDetection */ = {
+			isa = PBXGroup;
+			children = (
+				2AE052451920936400902408 /* TDTAppDelegate.h */,
+				2AE052461920936400902408 /* TDTAppDelegate.m */,
+				2AE052481920936400902408 /* Images.xcassets */,
+				2AE0523D1920936400902408 /* Supporting Files */,
+			);
+			path = TDTImageMIMEDetection;
+			sourceTree = "<group>";
+		};
+		2AE0523D1920936400902408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AE0523E1920936400902408 /* TDTImageMIMEDetection-Info.plist */,
+				2AE0523F1920936400902408 /* InfoPlist.strings */,
+				2AE052421920936400902408 /* main.m */,
+				2AE052441920936400902408 /* TDTImageMIMEDetection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AE052551920936400902408 /* TDTImageMIMEDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AE0525B1920936400902408 /* TDTImageMIMEDetectionTests.m */,
+				2AE052561920936400902408 /* Supporting Files */,
+			);
+			path = TDTImageMIMEDetectionTests;
+			sourceTree = "<group>";
+		};
+		2AE052561920936400902408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AE052651920945700902408 /* PNG.png */,
+				2AE052571920936400902408 /* TDTImageMIMEDetectionTests-Info.plist */,
+				2AE052581920936400902408 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AE052321920936400902408 /* TDTImageMIMEDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE0525F1920936400902408 /* Build configuration list for PBXNativeTarget "TDTImageMIMEDetection" */;
+			buildPhases = (
+				2AE0522F1920936400902408 /* Sources */,
+				2AE052301920936400902408 /* Frameworks */,
+				2AE052311920936400902408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDTImageMIMEDetection;
+			productName = TDTImageMIMEDetection;
+			productReference = 2AE052331920936400902408 /* TDTImageMIMEDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AE0524D1920936400902408 /* TDTImageMIMEDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE052621920936400902408 /* Build configuration list for PBXNativeTarget "TDTImageMIMEDetectionTests" */;
+			buildPhases = (
+				7E0A296FEBED4B29A551E2DC /* Check Pods Manifest.lock */,
+				2AE0524A1920936400902408 /* Sources */,
+				2AE0524B1920936400902408 /* Frameworks */,
+				2AE0524C1920936400902408 /* Resources */,
+				3C508107B8694BD686CD534C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AE052541920936400902408 /* PBXTargetDependency */,
+			);
+			name = TDTImageMIMEDetectionTests;
+			productName = TDTImageMIMEDetectionTests;
+			productReference = 2AE0524E1920936400902408 /* TDTImageMIMEDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AE0522B1920936400902408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TDT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Talk.to;
+				TargetAttributes = {
+					2AE0524D1920936400902408 = {
+						TestTargetID = 2AE052321920936400902408;
+					};
+				};
+			};
+			buildConfigurationList = 2AE0522E1920936400902408 /* Build configuration list for PBXProject "TDTImageMIMEDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AE0522A1920936400902408;
+			productRefGroup = 2AE052341920936400902408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AE052321920936400902408 /* TDTImageMIMEDetection */,
+				2AE0524D1920936400902408 /* TDTImageMIMEDetectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AE052311920936400902408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5BACA51920986800B83C58 /* PNG.png in Resources */,
+				2AE052411920936400902408 /* InfoPlist.strings in Resources */,
+				2AE052491920936400902408 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE0524C1920936400902408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE0525A1920936400902408 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C508107B8694BD686CD534C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TDTImageMIMEDetectionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E0A296FEBED4B29A551E2DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AE0522F1920936400902408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE052431920936400902408 /* main.m in Sources */,
+				2AE052471920936400902408 /* TDTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE0524A1920936400902408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE0525C1920936400902408 /* TDTImageMIMEDetectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AE052541920936400902408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AE052321920936400902408 /* TDTImageMIMEDetection */;
+			targetProxy = 2AE052531920936400902408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AE0523F1920936400902408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE052401920936400902408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AE052581920936400902408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE052591920936400902408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AE0525D1920936400902408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AE0525E1920936400902408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AE052601920936400902408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTImageMIMEDetection/TDTImageMIMEDetection-Prefix.pch";
+				INFOPLIST_FILE = "TDTImageMIMEDetection/TDTImageMIMEDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AE052611920936400902408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTImageMIMEDetection/TDTImageMIMEDetection-Prefix.pch";
+				INFOPLIST_FILE = "TDTImageMIMEDetection/TDTImageMIMEDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2AE052631920936400902408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAC1DDCB68642059825353E /* Pods-TDTImageMIMEDetectionTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDTImageMIMEDetection.app/TDTImageMIMEDetection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTImageMIMEDetection/TDTImageMIMEDetection-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TDTImageMIMEDetectionTests/TDTImageMIMEDetectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2AE052641920936400902408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAC1DDCB68642059825353E /* Pods-TDTImageMIMEDetectionTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDTImageMIMEDetection.app/TDTImageMIMEDetection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTImageMIMEDetection/TDTImageMIMEDetection-Prefix.pch";
+				INFOPLIST_FILE = "TDTImageMIMEDetectionTests/TDTImageMIMEDetectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AE0522E1920936400902408 /* Build configuration list for PBXProject "TDTImageMIMEDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE0525D1920936400902408 /* Debug */,
+				2AE0525E1920936400902408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE0525F1920936400902408 /* Build configuration list for PBXNativeTarget "TDTImageMIMEDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE052601920936400902408 /* Debug */,
+				2AE052611920936400902408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE052621920936400902408 /* Build configuration list for PBXNativeTarget "TDTImageMIMEDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE052631920936400902408 /* Debug */,
+				2AE052641920936400902408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AE0522B1920936400902408 /* Project object */;
+}

@@ -1,5 +1,5 @@
 
-@interface NSData (ImageMIMEDetection)
+@interface NSData (TDTImageMIMEDetection)
 
 /**
  Try to deduce the MIME type.

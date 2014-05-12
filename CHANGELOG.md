@@ -1,4 +1,4 @@
-# NSData+ImageMIMEDetection CHANGELOG
+# NSData+TDTImageMIMEDetection CHANGELOG
 
 ## 0.1.0
 

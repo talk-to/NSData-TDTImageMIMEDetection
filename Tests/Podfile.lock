@@ -1,14 +1,14 @@
 PODS:
-  - NSData+ImageMIMEDetection (0.1.0)
+  - NSData+TDTImageMIMEDetection (0.1.0)
 
 DEPENDENCIES:
-  - NSData+ImageMIMEDetection (from `../`)
+  - NSData+TDTImageMIMEDetection (from `../`)
 
 EXTERNAL SOURCES:
-  NSData+ImageMIMEDetection:
+  NSData+TDTImageMIMEDetection:
     :path: ../
 
 SPEC CHECKSUMS:
-  NSData+ImageMIMEDetection: 4fb39556094c7326851fe5702bfd9a9c3c03c09e
+  NSData+TDTImageMIMEDetection: d3852b6879680c48ab7473db0162097e9139c288
 
 COCOAPODS: 0.32.1

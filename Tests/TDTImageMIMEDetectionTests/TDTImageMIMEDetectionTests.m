@@ -1,13 +1,13 @@
 //
-//  ImageMIMEDetectionTests.m
-//  ImageMIMEDetectionTests
+//  TDTImageMIMEDetectionTests.m
+//  TDTImageMIMEDetectionTests
 //
-//  Created by Ayush on 08/05/14.
+//  Created by Ayush on 12/05/14.
 //  Copyright (c) 2014 Talk.to. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import <NSData+ImageMIMEDetection/NSData+ImageMIMEDetection.h>
+#import <NSData+TDTImageMIMEDetection/NSData+TDTImageMIMEDetection.h>
 
 @interface ImageMIMEDetectionTests : XCTestCase
 
