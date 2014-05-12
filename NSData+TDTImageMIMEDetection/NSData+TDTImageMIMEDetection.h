@@ -8,6 +8,8 @@
  detect the MIME type.
 
  @see http://en.wikipedia.org/wiki/Internet_media_type
+
+ @note Currently, only able to detect JPEG and PNG images data.
  */
 - (NSString *)tdt_MIMEType;
 
