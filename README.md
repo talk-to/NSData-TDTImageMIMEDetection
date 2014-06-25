@@ -40,5 +40,5 @@ If you are willing to contribute to the library go through the
 
 ## License
 
-NSData-TDTImageMIMEDetection is available under this [License](LICENSE.md).
+NSData-TDTImageMIMEDetection is available under this [License](LICENSE).
 
