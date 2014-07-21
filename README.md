@@ -13,7 +13,7 @@ directory first.
 NSData+TDTImageMIMEDetection is available through [CocoaPods](http://cocoapods.org),
 to install it simply add the following line to your Podfile:
 
-    pod 'NSData+TDTImageMIMEDetection', :git => 'git@github.com:talk-to/NSData-TDTImageMIMEDetection', :tag => '0.1.1'
+    pod 'NSData+TDTImageMIMEDetection'
 
 and then run :
 
@@ -35,8 +35,7 @@ For any other feedback or suggestion, contact the maintainers (listed below).
 
 ## Contributing
 
-If you are willing to contribute to the library go through the
-[Talk.to iOS Development Guidelines](https://github.com/talk-to/ios-guides).
+[Pull Requests are welcome!](https://help.github.com/articles/using-pull-requests)
 
 ## License
 
