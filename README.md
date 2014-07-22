@@ -51,9 +51,7 @@ For any other feedback or suggestion, contact the maintainers (listed below).
 
 * Commit your changes.
 
-* Publish, via `rake publish`. This does the following:
-    - Create a tag with the current podspec version, and push it to remote.
-    - Push the current podspec to CocoaPods trunk.
+* `rake publish`.
 
 ## License
 
