@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "NSData+TDTImageMIMEDetection"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Category on NSData to check if it represents PNG or JPEG."
   s.homepage         = "https://github.com/talk-to/NSData-ImageMIMEDetection"
   s.license          = { :type => 'BSD' }
