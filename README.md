@@ -37,6 +37,24 @@ For any other feedback or suggestion, contact the maintainers (listed below).
 
 [Pull Requests are welcome!](https://help.github.com/articles/using-pull-requests)
 
+### Release Checklist for Maintainers
+
+* Update the CHANGELOG.
+
+* Modify the version in the Podspec.
+
+* Update the version of the category used by the Tests
+
+        cd Tests/ && pod update --no-repo-update
+
+* Run the tests.
+
+* Commit your changes.
+
+* Publish, via `rake publish`. This does the following:
+    - Create a tag with the current podspec version, and push it to remote.
+    - Push the current podspec to CocoaPods trunk.
+
 ## License
 
 NSData-TDTImageMIMEDetection is available under [BSD 3-clause License](LICENSE).
