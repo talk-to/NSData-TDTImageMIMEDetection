@@ -1,5 +1,12 @@
 # NSData+TDTImageMIMEDetection CHANGELOG
 
+## 0.1.2
+
+Update Rakefile to only publish the pod.
+Update README
+* Simplify sample pod specification.
+* Add checklist for release.
+
 ## 0.1.1
 
 Update LICENSE.
