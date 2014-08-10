@@ -2,5 +2,5 @@ xcodeproj 'TDTImageMIMEDetection'
 inhibit_all_warnings!
 
 target :TDTImageMIMEDetectionTests do
-  pod "NSData+TDTImageMIMEDetection", :path => "../"
+  pod "NSData+TDTImageMIMEDetection", :path => ".."
 end
