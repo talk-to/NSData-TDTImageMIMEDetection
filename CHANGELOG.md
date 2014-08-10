@@ -1,5 +1,9 @@
 # NSData+TDTImageMIMEDetection CHANGELOG
 
+## 0.1.3
+
+Update git URL in podspec to https.
+
 ## 0.1.2
 
 Update Rakefile to only publish the pod.
