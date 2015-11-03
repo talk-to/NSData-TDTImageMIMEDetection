@@ -1,7 +1,7 @@
 # NSData+TDTImageMIMEDetection
 
-Category on NSData that can determine if it is a representaion of a JPEG image
-or a PNG image.
+Category on NSData that can determine if it is a representaion of a JPEG, PNG or
+GIF image.
 
 ## Usage
 
