@@ -20,6 +20,7 @@
 		2AE052521920936400902408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE0523A1920936400902408 /* UIKit.framework */; };
 		2AE0525A1920936400902408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AE052581920936400902408 /* InfoPlist.strings */; };
 		2AE0525C1920936400902408 /* TDTImageMIMEDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE0525B1920936400902408 /* TDTImageMIMEDetectionTests.m */; };
+		6338A6A71BE8D64B0015703F /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6338A6A31BE8D2570015703F /* gif.gif */; settings = {ASSET_TAGS = (); }; };
 		E8B5C56792004E6C862FE343 /* libPods-TDTImageMIMEDetectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BF6CDE3E044D13A2173EF6 /* libPods-TDTImageMIMEDetectionTests.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		2AE052591920936400902408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AE0525B1920936400902408 /* TDTImageMIMEDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTImageMIMEDetectionTests.m; sourceTree = "<group>"; };
 		2AE052651920945700902408 /* PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNG.png; sourceTree = "<group>"; };
+		6338A6A31BE8D2570015703F /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
 		D3BF6CDE3E044D13A2173EF6 /* libPods-TDTImageMIMEDetectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDTImageMIMEDetectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAC1DDCB68642059825353E /* Pods-TDTImageMIMEDetectionTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTImageMIMEDetectionTests.xcconfig"; path = "Pods/Pods-TDTImageMIMEDetectionTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +148,7 @@
 		2AE052561920936400902408 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6338A6A31BE8D2570015703F /* gif.gif */,
 				2AE052651920945700902408 /* PNG.png */,
 				2AE052571920936400902408 /* TDTImageMIMEDetectionTests-Info.plist */,
 				2AE052581920936400902408 /* InfoPlist.strings */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5BACA51920986800B83C58 /* PNG.png in Resources */,
+				6338A6A71BE8D64B0015703F /* gif.gif in Resources */,
 				2AE052411920936400902408 /* InfoPlist.strings in Resources */,
 				2AE052491920936400902408 /* Images.xcassets in Resources */,
 			);

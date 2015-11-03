@@ -3,6 +3,7 @@
 
 static NSUInteger const JPEGHeaderLength = 4;
 static NSUInteger const PNGHeaderLength = 4;
+static NSUInteger const GIFHeaderLength = 6;
 
 @implementation NSData (TDTImageMIMEDetection)
 
@@ -36,6 +37,26 @@ static NSUInteger const PNGHeaderLength = 4;
           buffer[3] == 0x47);
 }
 
+/**
+ GIF Format: https://en.wikipedia.org/wiki/GIF#File_format
+ */
+- (BOOL)tdt_isGIF {
+  if (self.length < GIFHeaderLength) {
+    return NO;
+  }
+  
+  unsigned char buffer[GIFHeaderLength];
+  [self getBytes:&buffer length:GIFHeaderLength];
+  
+  return (buffer[0] == 0x47 &&
+          buffer[1] == 0x49 &&
+          buffer[2] == 0x46 &&
+          buffer[3] == 0x38 &&
+          (buffer[4] == 0x39 || buffer[4] == 0x37) &&
+          buffer[5] == 0x61);
+}
+
+
 - (NSString *)tdt_MIMEType {
   if ([self tdt_isJPEG]) {
     return @"image/jpeg";
@@ -43,6 +64,10 @@ static NSUInteger const PNGHeaderLength = 4;
 
   if ([self tdt_isPNG]) {
     return @"image/png";
+  }
+
+  if ([self tdt_isGIF]) {
+    return @"image/gif";
   }
 
   return nil;

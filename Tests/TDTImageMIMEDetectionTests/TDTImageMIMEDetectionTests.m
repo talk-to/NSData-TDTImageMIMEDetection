@@ -49,4 +49,11 @@
   XCTAssertEqualObjects(MIMEType, @"image/png");
 }
 
+- (void)testItDetectsGIFImageCorectly {
+  NSString *path = [[[NSBundle mainBundle] resourcePath]
+                    stringByAppendingPathComponent:@"gif.gif"];
+  NSString *MIMEType = [[NSData dataWithContentsOfFile:path] tdt_MIMEType];
+  XCTAssertEqualObjects(MIMEType, @"image/gif");
+}
+
 @end
