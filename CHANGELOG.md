@@ -1,5 +1,9 @@
 # NSData+TDTImageMIMEDetection CHANGELOG
 
+## 0.2.0
+
+Add support for GIF mime-type detection.
+
 ## 0.1.3
 
 Update git URL in podspec to https.
